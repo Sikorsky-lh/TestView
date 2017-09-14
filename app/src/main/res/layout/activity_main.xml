@@ -11,9 +11,26 @@
     <Button
         android:layout_margin="10dp"
         android:onClick="toPieView"
-        android:id="@+id/pie"
+        android:id="@+id/btn_pie"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textAllCaps="false"
         android:text="PieView"/>
+    <Button
+        android:layout_margin="10dp"
+        android:onClick="toArrowView"
+        android:id="@+id/btn_arrow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="ArrowView"/>
+    <Button
+        android:layout_margin="10dp"
+        android:onClick="toSearchView"
+        android:id="@+id/btn_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="SearchView"/>
 
 </LinearLayout>

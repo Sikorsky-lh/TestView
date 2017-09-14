@@ -16,7 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.PieActivity"></activity>
+        <activity android:name=".activity.PieActivity" />
+        <activity android:name=".activity.SearchActivity" />
+        <activity android:name=".activity.ArrowActivity"></activity>
     </application>
 
 </manifest>
