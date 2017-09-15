@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.testview.activity.STextViewActivity">
+
+    <com.example.testview.view.StrokeTextView
+        android:id="@+id/stroke_text"
+        android:text="李航"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        app:border_color="#000"
+        app:border_width="2"
+        android:textColor="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:textAllCaps="false"
+        android:text="change text"
+        android:onClick="change"
+        android:id="@+id/change"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

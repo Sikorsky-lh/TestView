@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".activity.PieActivity" />
         <activity android:name=".activity.SearchActivity" />
-        <activity android:name=".activity.ArrowActivity"></activity>
+        <activity android:name=".activity.ArrowActivity" />
+        <activity android:name=".activity.STextViewActivity"></activity>
     </application>
 
 </manifest>

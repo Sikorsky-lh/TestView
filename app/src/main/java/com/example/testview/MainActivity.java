@@ -7,6 +7,7 @@ import android.view.View;
 
 import com.example.testview.activity.ArrowActivity;
 import com.example.testview.activity.PieActivity;
+import com.example.testview.activity.STextViewActivity;
 import com.example.testview.activity.SearchActivity;
 
 import java.util.ArrayList;
@@ -38,5 +39,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void toSearchView(View view) {
         SearchActivity.actionStart(mContext);
+    }
+
+    public void toStrokeTextView(View view) {
+        STextViewActivity.actionStart(mContext);
     }
 }
