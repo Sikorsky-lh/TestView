@@ -6,5 +6,6 @@
 
 > **注意问题**：调用setText()方法改变内容时会使得描边TextView与继承TextView内容不一致，需要在onMeasure()方法里事描边TextView重新setText(),并重写继承TextView的setText()方法，加一句requestLayout()方法重新调用onMeasure()。
 
-|上海|杭州|南京|无锡|
-|天津|郑州|北京|长沙|
+
+| bahd | sdf | 上海 |
+| sjda | sdf | nadn |
